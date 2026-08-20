@@ -16,7 +16,8 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
 
-@Component
+// [STUB] Tạm disable @Component cho Member A. Bật lại khi B tích hợp JWT.
+// @Component
 @RequiredArgsConstructor
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
